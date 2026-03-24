@@ -41,4 +41,4 @@ The goal is for the model to learn the threshold where a student transitions fro
 pip install numpy matplotlib
 
 2. Run the script:
-python nn_from_scratch.py
+python main.py
