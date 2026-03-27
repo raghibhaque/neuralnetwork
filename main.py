@@ -59,3 +59,10 @@ for epoch in range(1000):
     
     if epoch % 100 == 0:
         print(loss)
+
+
+print("\nFinal predictions:")
+print(forward(X, W, b))
+
+print("\nFinal weight:", W)
+print("Final bias:", b)
