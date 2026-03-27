@@ -8,6 +8,9 @@ def forward(X, W, b):
     a = sigmoid(z)
     return a
 
+def compute_loss(y_pred, y_true):
+    return np.mean((y_pred - y_true) ** 2)
+
 X = np.array([[1], [2], [3], [4], [5]])
 
 y = np.array([[0], [0], [0], [1], [1]])
